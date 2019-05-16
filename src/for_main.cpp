@@ -7,53 +7,43 @@ using namespace for_loop;
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
-
 	int k;
 	double n;
-
 	while(true)
 	{
-		printf("1) Задание №1\n");
-		printf("2) Задание №2\n");
-		printf("3) Задание №3\n");
-		printf("4) Задание №4\n");
-		printf("5) Задание №5\n");
-		printf("6) Выход\n");
-
+		printf("1) Task 1\n");
+		printf("2) Task 2\n");
+		printf("3) Task 3\n");
+		printf("4) Task 4\n");
+		printf("5) Task 5\n");
+		printf("6) Exit\n");
 		cin >> k;
-
 		switch(k)
 		{
 			case 1:
-				printf("Введите число n:\n");
-
+				printf("Please input n:\n");
 				cin >> k;
-				cout << "Результат: " << summ(k) << endl;
+				cout << "Result: " << summ(k) << endl;
 				break;
 			case 2:
-				printf("Введите число eps:\n");
-
+				printf("Please input eps:\n");
 				cin >> n;
-				cout << "Результат: " << endl;
+				cout << "Result: " << endl;
 				cout << summ2(n) << endl;
 				break;
 			case 3:
-				printf("Введите числа n, k:\n");
-
+				printf("Please input n, k:\n");
 				cin >> n;
 				cin >> k;
 				print(n, k);
 				break;
 			case 4:
-				printf("Введите число eps:\n");
-
+				printf("Please input eps:\n");
 				cin >> n;
-				cout << "Результат: " << findFirstElement(n) << endl;
+				cout << "Result: " << findFirstElement(n) << endl;
 				break;
 			case 5:
-				printf("Введите число eps:\n");
-
+				printf("Please input eps:\n");
 				cin >> n;
 				cout << "Результат: " << findFirstNegativeElement(n) << endl;
 				break;

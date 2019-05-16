@@ -2,5 +2,5 @@
 
 double a(int i)
 {
-	return ((pow((-1), i)) * (((pow(i, 2)) + 1) / ((pow(i, 2)) + 3)));
+	return ((pow((-1), i)) * (((pow(i, 2)) + 1) / ((pow(i, 3)) + 3)));
 }

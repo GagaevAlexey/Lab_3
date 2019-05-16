@@ -9,7 +9,7 @@ namespace do_while_loop
 
 		do
 		{
-			if(i >= n-1) break;
+			if(i > n-1) break;
 			res += a(i);
 			i++;
 		}

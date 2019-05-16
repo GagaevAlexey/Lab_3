@@ -7,7 +7,7 @@ namespace while_loop
 		int i = 0;
 		double res = 0;
 
-		while(i < n-1)
+		while(i <= n-1)
 		{
 			res += a(i);
 			i++;
